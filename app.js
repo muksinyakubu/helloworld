@@ -9,4 +9,5 @@ app.get("/",(req,res)=>{
 
 app.listen(port,()=>{
     console.log("Started the server");
+    console.log(`You server is running on http://localhost:${port}`);
 })
